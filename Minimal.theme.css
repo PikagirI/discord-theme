@@ -224,6 +224,11 @@ min-height: 45px;
 	background-color: rgb(var(--mentioncolor, --warningcolor));
 }
 
+/**server left line color**/
+.item-2LIpTv {
+  background: rgb(168, 43, 168);
+}
+
 
 
 /** you can add css code here**/
