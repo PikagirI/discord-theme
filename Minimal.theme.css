@@ -209,6 +209,22 @@ min-height: 45px;
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
 }
 
+/**better reply color**/
+:root {
+  --mentioncolor: 176,2,255;
+}
+.theme-light:not(.userProfileOuterThemed-3EfHmv),
+.theme-dark:not(.userProfileOuterThemed-3EfHmv),
+.theme-amoled:not(.userProfileOuterThemed-3EfHmv) {
+	--background-mentioned: rgba(var(--mentioncolor, --warningcolor),.05);
+	--background-mentioned-hover: rgba(var(--mentioncolor, --warningcolor),.08);
+	--background-mentioned-accent: rgb(var(--mentioncolor, --warningcolor));
+}
+#app-mount .mentioned-Tre-dv::before {
+	background-color: rgb(var(--mentioncolor, --warningcolor));
+}
+
+
 
 /** you can add css code here**/
 
