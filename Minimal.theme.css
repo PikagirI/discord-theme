@@ -1,0 +1,216 @@
+/**
+ * @name Minimal
+ * @author Pika#7766
+ * @version 1.0.0
+*/
+
+
+/**Better profil information**/
+@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
+
+/**better profil interface**/
+@import url(https://dablulite.github.io/redesigneduserareas/import.css);
+
+/**better post **/
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/NormalizedForums.css);
+
+/**mini plugin**/
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+
+
+/**change discord icon (top left)**/
+.homeIcon-r0w4ny path {fill: transparent}
+.homeIcon-r0w4ny {
+background: url('http://image.noelshack.com/fichiers/2022/45/2/1667922199-image.png') center/cover no-repeat;
+min-width: 45px;
+min-height: 45px;
+}
+
+/** remove background color discord icon**/
+.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z>.childWrapper-1j_1ub{
+  background-color: transparent;
+}
+
+/**better modify timestamp**/
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+        content: " (" attr(aria-label) ")";
+        color: var(--text-muted);
+        font-size: 0.625rem;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: lowercase;
+}
+.edited-1v5nT8:not(.message-translate-indicator) {
+    display: none;
+}
+
+/**mute channel icon**/
+.modeMuted-2T4MDZ .icon-2W8DHg path{ display: none; }
+.modeMuted-2T4MDZ .iconContainer-21RCa3{ position: relative; }
+.modeMuted-2T4MDZ .iconContainer-21RCa3:before{
+    content: '🔇';
+    position: absolute;
+    font-size: 20px; 
+}
+
+/**smooth menu**/
+.menu-1QACrS, .colorDefault-CDqZdO { 
+    border-radius: 10px; 
+}
+
+/**Roles Background color profil**/
+.role-2TIOKu {
+    transform: translate(0);
+    overflow: hidden;
+    border: 0;
+
+    --transparency: .4;
+    border-radius: 5px;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+    margin: 0;
+    left: unset;
+    transform: translate(50%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT {
+    position: static;
+}
+.role-2TIOKu .roleCircle-3K9O3d:after {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: var(--transparency);
+}
+
+/**channel color gradiant**/
+:root {
+  --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
+  --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
+  --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
+  --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
+  --gradient-primary: 118, 66, 140;
+  --gradient-secondary: 79, 43, 94;
+  --scrollbar-colour: rgba(104, 24, 93, 0.486);
+  --gradient-direction: 187deg;
+}
+#app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ {
+  background: var(--gradient) !important;
+}
+
+
+/**better reply texture**/
+#app-mount .repliedMessage-3Z6XBG {
+  position: absolute;
+  top: 25px;
+  left: 86px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-tertiary);
+  width: fit-content;
+  max-width: calc(60vw - 240px);
+  margin-left: -5px;
+  padding: 3px 5px;
+  border-radius: 0 4px 4px 4px;
+  box-sizing: border-box;
+}
+#app-mount .repliedMessage-3Z6XBG > div {
+  position: relative;
+  z-index: 1;
+}
+#app-mount .repliedMessage-3Z6XBG img.replyAvatar-sHd2sU {
+  display: none;
+}
+#app-mount .repliedMessage-3Z6XBG img.emoji {
+  display: inline;
+}
+#app-mount .repliedMessage-3Z6XBG .username-h_Y3Us {
+  margin-right: 5px;
+}
+#app-mount .repliedMessage-3Z6XBG::before {
+  content: none;
+}
+#app-mount .repliedMessage-3Z6XBG::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -4px;
+  z-index: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 0;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-tertiary);
+  transform: skewX(45deg);
+  border-bottom: none;
+  border-right: none;
+}
+#app-mount .repliedMessage-3Z6XBG + .contents-2MsGLg .header-2jRmjb {
+  margin-bottom: 32px;
+}
+
+/**better windframe and winbutton**/
+.winButton-3UMjdg {
+  height: 25px;
+  width: 32px;
+  margin-top: 4px;
+  padding-right: 8px;
+}
+.withFrame-2dL45i {
+  height: fit-content;
+  margin-top: 0px;
+}
+.wordmarkWindows-2dq6rw {
+  margin-top: 8px;
+  margin-left: 8px;
+  padding: 0px;
+}
+
+/**remove explorer server button**/
+.tutorialContainer-2jwoiB+.listItem-3SmSlK {
+    display: none;
+}
+
+/**remove active now / en ligne **/
+.nowPlayingColumn-1eCBCN {
+  display: none;
+}
+
+/**a cute cathegory line**/
+:root {
+  --rgb-highlight: 107, 72, 169;
+  --highlight: rgb(var(--rgb-highlight));
+}
+.containerDefault-3TQ5YN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerDefault-3TQ5YN div div {
+  color: var(--highlight);
+}
+.containerDefault-3TQ5YN::before {
+  content: '\00a0';
+  width: 100%;
+  height: 2px;
+  margin-right: -11px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
+}
+.containerDefault-3TQ5YN::after {
+  content: '\00a0';
+  width: 100%;
+  height: 2px;
+  margin-left: -3px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
+}
+
+
+/** you can add css code here**/
+
+
+
