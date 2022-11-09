@@ -2,7 +2,7 @@
  * @name Minimal
  * @author Pika#7766
  * @version 1.0.0
- * @description a minamalist discord theme
+ * @description a minamalist and modular discord theme
  * @source https://github.com/PikagirI/discord-theme/blob/main/Minimal.theme.css
 */
 
@@ -235,6 +235,13 @@ min-height: 45px;
 .colorDefault-CDqZdO.focused-3qFvc8 {
   background-color: rgb(156, 25, 134);
 }
+
+/**patch free emoji**/
+.emojiItem-277VFM.emojiItemDisabled-3VVnwp {
+  filter: grayscale(0);
+}
+
+
 
 
 
