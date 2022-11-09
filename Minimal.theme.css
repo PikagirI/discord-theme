@@ -95,9 +95,9 @@ min-height: 45px;
   --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
-  --gradient-primary: 118, 66, 140;
-  --gradient-secondary: 79, 43, 94;
-  --scrollbar-colour: rgba(104, 24, 93, 0.486);
+  --gradient-primary: 118, 66, 140;  /** you can change the color with the RBG code **/
+  --gradient-secondary: 79, 43, 94;  /** you can change the color with the RBG code **/
+  --scrollbar-colour: rgba(104, 24, 93, 0.486);   /** you can change the color with the RBG code **/
   --gradient-direction: 187deg;
 }
 #app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ {
@@ -183,7 +183,7 @@ min-height: 45px;
 
 /**a cute cathegory line**/
 :root {
-  --rgb-highlight: 107, 72, 169;
+  --rgb-highlight: 107, 72, 169;     /** you can change the color with the RBG code **/
   --highlight: rgb(var(--rgb-highlight));
 }
 .containerDefault-3TQ5YN {
@@ -213,7 +213,7 @@ min-height: 45px;
 
 /**better reply color**/
 :root {
-  --mentioncolor: 176,2,255;
+  --mentioncolor: 176,2,255; /** you can change the color with the RBG code **/
 }
 .theme-light:not(.userProfileOuterThemed-3EfHmv),
 .theme-dark:not(.userProfileOuterThemed-3EfHmv),
