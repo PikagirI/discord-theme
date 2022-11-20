@@ -241,6 +241,10 @@ min-height: 45px;
   filter: grayscale(0);
 }
 
+/**remove nitro button**/
+.channel-1Shao0 [href="/store"] {
+  display: none;
+}
 
 
 
