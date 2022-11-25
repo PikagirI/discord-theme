@@ -246,6 +246,10 @@ min-height: 45px;
   display: none;
 }
 
+/**disable stream preview**/
+.pictureInPictureWindow-3ms5Zy.elevationHigh-3KUiqj{
+  display: none
+}
 
 
 
