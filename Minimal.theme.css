@@ -20,17 +20,12 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 
 
-/**change discord icon (top left)**/
-.homeIcon-r0w4ny path {fill: transparent}
-.homeIcon-r0w4ny {
-background: url('http://image.noelshack.com/fichiers/2022/45/2/1667922199-image.png') center/cover no-repeat;
-min-width: 45px;
-min-height: 45px;
+/**change discord icon (top left) + remove background color discord icon **/
+foreignObject>[data-list-item-id$=home] :where(path,rect){
+  display: none;
 }
-
-/** remove background color discord icon**/
-.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z>.childWrapper-1j_1ub{
-  background-color: transparent;
+foreignObject>[data-list-item-id$=home] svg{
+  background: url(http://image.noelshack.com/fichiers/2022/45/2/1667922199-image.png) center/contain no-repeat;
 }
 
 /**better modify timestamp**/
