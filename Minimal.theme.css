@@ -25,10 +25,12 @@ foreignObject>[data-list-item-id$=home] :where(path,rect){
   display: none;
 }
 foreignObject>[data-list-item-id$=home] svg{
-  background: url(http://image.noelshack.com/fichiers/2022/45/2/1667922199-image.png) center/contain no-repeat;
+  background: url(https://cdn.discordapp.com/attachments/689546290312249358/1029721878367051816/lfnwolq8huz51.png) center/contain no-repeat;
+  min-height: 45px;
+  min-width: 45px;
 }
 .tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z>.childWrapper-1j_1ub{
-  background-color: transparent;
+background-color: transparent;
 }
 
 /**better modify timestamp**/
